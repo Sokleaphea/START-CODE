@@ -8,21 +8,29 @@
         margin: 0;
         padding: 0;
         background: pink;
+        padding-left: 10em;
+        padding-right: 10em;
       }
   
       .container {
         height: 100vh;
         background: greenyellow;
-
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1em;
       }
 
       header,
       footer {
         background: grey;
+        height: 100px;
       }
 
       main {
         background: grey;
+        display: flex;
+        flex-grow: 1;
       }
  
     </style>
